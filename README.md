@@ -41,6 +41,31 @@ npx will execute the package, here it is executing parcel, parcel will go to ind
  
 11. browserList: (browserlis.dev site)
 
-12. 
+Episode 3:
+
+1. functional component: a fn that return a jsx code is a functional component
+
+2. We render a functional component like: root.render(<HeadingComponent/>);
+
+3. & we render a react element like: root.render(heading);
+
+4. Component Composition: Putting one component inside another component
+   ex: 
+   const HeadingComponent= ()=>{
+   return 
+       <div>
+         <Title />
+         <h1 className="heading"> Namaste React Walo</h1>
+       </div>
+   };
+
+5. We can write any piece of js inside jsx inside { curly braces }.
+Ex: const HeadingComponent= ()=>(
+   <>
+     <Title /> or {Title()}
+     {number}
+     <h1 className="heading"> Namaste React Walo</h1>
+   </> 
+);
 
 
